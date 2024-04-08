@@ -1,0 +1,40 @@
+{
+  "name": "ull-esit-inf-dsi-23-24-prct07-dsikea-datamodel-groupr",
+  "version": "1.0.0",
+  "description": "[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/a4IaLRGZ)",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "coverage": "c8 npm run test && c8 report --reporter=lcov",
+    "test": "mocha",
+    "doc": "typedoc",
+    "start": "tsc-watch --onSuccess \"node dist/index.js\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chai": "^4.3.12",
+    "@types/inquirer": "^9.0.7",
+    "@types/lowdb": "^1.0.15",
+    "@types/mocha": "^10.0.6",
+    "@types/yargs": "^17.0.32",
+    "@typescript-eslint/eslint-plugin": "^7.1.1",
+    "@typescript-eslint/parser": "^7.1.1",
+    "c8": "^9.1.0",
+    "chai": "^5.1.0",
+    "chalk": "^5.3.0",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "inquirer": "^9.2.16",
+    "lowdb": "^7.0.1",
+    "mocha": "^10.3.0",
+    "prettier": "^3.2.5",
+    "ts-node": "^10.9.2",
+    "tsc-watch": "^6.0.4",
+    "typedoc": "^0.25.11"
+  },
+  "dependencies": {
+    "yargs": "^17.7.2"
+  }
+}

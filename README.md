@@ -1,1 +1,6 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/7bX30zK4)
+# Práctica 11 - Sesión PE
+    Durante la práctica 9, debería haber escrito métodos para añadir, modificar, borrar y actualizar la información de una carta de la colección de un usuario. Escoja alguna de esas funciones e impleméntela siguiendo el patrón callback.
+
+    Luego, sustituya la invocación de métodos del API síncrona de Node.js de gestión el sistema de ficheros, por llamadas a los métodos equivalentes del API asíncrona basada en callback.
+
+    Por último, implemente pruebas de su método asíncrono.
